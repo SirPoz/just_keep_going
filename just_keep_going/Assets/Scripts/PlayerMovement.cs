@@ -61,7 +61,6 @@ public class PlayerMovement : MonoBehaviour
     }
 
     void dash(){
-
         if(Input.GetButtonDown("Fire1") && nextDashTime <= Time.time){
             rb.AddForce(dashForce * Input.GetAxisRaw("Horizontal") * Vector2.right);
            nextDashTime = Time.time + dashCooldown;
