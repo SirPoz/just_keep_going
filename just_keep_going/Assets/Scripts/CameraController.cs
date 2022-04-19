@@ -9,16 +9,24 @@ public class CameraController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        player = GameObject.FindWithTag("Player");
-        transform.position = new Vector3(player.transform.position.x,0,transform.position.z);
+        player = null;
+        /*player = GameObject.FindWithTag("Player");
+        transform.position = new Vector3(player.transform.position.x,0,transform.position.z);*/
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(player??false){
+        if(player == null){
+            Debug.Log("Test");
             player = GameObject.FindWithTag("Player");
         }
-        transform.position = new Vector3(player.transform.position.x,player.transform.position.y,transform.position.z);
+        else
+        {
+            transform.position = new Vector3(player.transform.position.x,player.transform.position.y,transform.position.z);
+        }
+        
     }
+
+    
 }

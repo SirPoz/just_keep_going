@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 410887895095547328}
   m_Layer: 0
   m_Name: LevelGenerator
-  m_TagString: Untagged
+  m_TagString: GameController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44,5 +44,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objects:
+  - {fileID: 2198484643536642717, guid: 61b831ade4f741a40beaf75d9850c03c, type: 3}
   - {fileID: 8446135215736401583, guid: 0a4f0ce1f5c4b38488c3d76be2f2a9f0, type: 3}
   levelHandler: {fileID: 3278349859869386220, guid: 45fe09bc5ebe0d54cb8020a26218e265, type: 3}

@@ -27,9 +27,13 @@ public class SpawnObject : MonoBehaviour
         GameObject player = GameObject.FindGameObjectWithTag("Player");
         GameObject levelHandlerInstance = GameObject.FindGameObjectWithTag("LevelHandler");
         GameObject room = GameObject.FindGameObjectWithTag("Room");
-       Destroy(room);
-       Destroy(levelHandlerInstance);
-       Destroy(player);
+        GameObject camera = GameObject.FindGameObjectWithTag("MainCamera");
+        camera.GetComponent<CameraController>().player = null;
+        levelHandlerInstance.GetComponent<LevelHandler>().player = null;
+        
+        Destroy(levelHandlerInstance);
+        Destroy(room);
+        Destroy(player);
     }
 
     public void restartRoom()
