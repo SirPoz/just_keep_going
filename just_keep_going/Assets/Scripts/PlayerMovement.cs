@@ -3,6 +3,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public Animator anim;
+    public PlayerEnergyHealth energyHealthHandler;
 
     public float moveSpeed = 25f;
     public float acceleration = 800f;
@@ -23,10 +24,10 @@ public class PlayerMovement : MonoBehaviour
     private float nextDashTime;
     private bool isFacingRight = true;
 
+
     void Start(){
         rb = GetComponent<Rigidbody2D>(); //Der Rigidbody der dem Spieler zugeordnet ist
         gravityScale = rb.gravityScale; //Die Variable gravityScale wird der normalen Anziehungskraft des rigidbodys gleichgesetzt
-        
     }
 
     void MoveSideways(){
@@ -93,7 +94,8 @@ public class PlayerMovement : MonoBehaviour
             anim.ResetTrigger("Roll");
             anim.SetTrigger("Roll");
             rb.AddForce(dashForce * Input.GetAxisRaw("Horizontal") * Vector2.right);
-           nextDashTime = Time.time + dashCooldown;
+            energyHealthHandler.setCurrentEnergy(energyHealthHandler.getCurrentEnergy() - 20);
+            nextDashTime = Time.time + dashCooldown;
         }
     }
 
