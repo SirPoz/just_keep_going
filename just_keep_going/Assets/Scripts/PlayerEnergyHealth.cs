@@ -7,9 +7,9 @@ public class PlayerEnergyHealth : MonoBehaviour
 {
 
     public float maxEnergy;
-    public float currentEnergy;
+    private float currentEnergy;
     public float maxHealth;
-    public float currentHealth;
+    private float currentHealth;
 
     public float getMaxEnergy(){
         return maxEnergy;
@@ -59,4 +59,6 @@ public class PlayerEnergyHealth : MonoBehaviour
             setCurrentEnergy(getMaxEnergy());
         }
     }
+
+
 }
