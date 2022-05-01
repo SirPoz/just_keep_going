@@ -5,16 +5,30 @@ public class PlayerMovement : MonoBehaviour
     public Animator anim;
     public PlayerEnergyHealth energyHealthHandler;
 
+    [Header("Combat")]
+    public float attackDamage;
+    public float attackRange;
+    public Transform attackPoint;
+    public LayerMask enemyLayers;
+
+    [Header("Movement")]
     public float moveSpeed = 25f;
     public float acceleration = 800f;
     public float decceleration = 1000f;
+    [Range(0.9f, 1f)]
     public float velPower = 0.95f;
+    [HideInInspector]
+    public bool isFacingRight = true;
 
+    [Header("Jump")]
     public float jumpForce = 10f;
     public float fallGravityMultiplier = 2f;
 
+    [Header("Dash")]
     public float dashForce = 50f;
     public float dashCooldown = 1f;
+
+
 
     private Rigidbody2D rb;
     private float horizontalMove;
@@ -22,7 +36,7 @@ public class PlayerMovement : MonoBehaviour
     private bool grounded = true;
     private float gravityScale;
     private float nextDashTime;
-    private bool isFacingRight = true;
+    
 
 
     void Start(){
@@ -100,10 +114,19 @@ public class PlayerMovement : MonoBehaviour
     }
 
     void Attack(){
-        if (Input.GetMouseButtonDown(0)){
-            anim.ResetTrigger("Attack");
+        Debug.Log("Attack");
+            //play animation
             anim.SetTrigger("Attack");
-        }
+
+            //check which enemies are hit
+            Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
+
+            //deal damage to hit enemies
+            foreach(Collider2D enemy in hitEnemies){
+                Debug.Log(enemy.name + " has been hit");
+                enemy.GetComponent<DamageHandler>().takeDamage(attackDamage);
+            }
+
     }
 
     void OnTriggerEnter2D(Collider2D collision){ //der Trigger ist ein kleines Feld unterhalb des Spielers, wenn dieser mit Ground kollidiert wird grounded auf true gesetzt
@@ -119,9 +142,17 @@ public class PlayerMovement : MonoBehaviour
        MoveSideways();
        Jump();
        Dash();
-       Attack();
+        if (Input.GetMouseButtonDown(0))
+        {
+            Attack();
+        }
 
     }
 
-    
+    void OnDrawGizmosSelected()
+    {
+        Gizmos.DrawWireSphere(attackPoint.position, attackRange);
+    }
+
+
 }
