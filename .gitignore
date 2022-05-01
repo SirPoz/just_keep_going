@@ -58,3 +58,5 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+just_keep_going/ProjectSettings/QualitySettings.asset
+just_keep_going/Assets/Prefab/StepRoom.prefab
