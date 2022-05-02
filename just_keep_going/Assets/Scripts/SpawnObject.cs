@@ -32,13 +32,14 @@ public class SpawnObject : MonoBehaviour
         levelHandlerInstance.GetComponent<LevelHandler>().player = null;
         
         Destroy(levelHandlerInstance);
-        Destroy(room);
+        DestroyImmediate(room);
         Destroy(player);
     }
 
     public void restartRoom()
     {
         deleteRoom();
+        gameObject.GetComponent<UIHandler>().IncreaseRoomCount();
         setupRoom();
     }
 
