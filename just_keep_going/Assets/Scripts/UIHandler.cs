@@ -15,9 +15,9 @@ public class UIHandler : MonoBehaviour
     
     public int RoomCount;
 
-    public Text TimerText; 
+    /*public Text TimerText; 
     public bool playing;
-    private float Timer;
+    private float Timer;*/
 
     
     void Start(){
@@ -42,11 +42,11 @@ public class UIHandler : MonoBehaviour
             EnergyBar.GetComponent<BarScript>().setValue(energy);
         }
 
-        Timer += Time.deltaTime;
+      /*  Timer += Time.deltaTime;
 	    int minutes = Mathf.FloorToInt(Timer / 60F);
 	    int seconds = Mathf.FloorToInt(Timer % 60F);
 	    int milliseconds = Mathf.FloorToInt((Timer * 100F) % 100F);
-	    TimerText.text = minutes.ToString ("00") + ":" + seconds.ToString ("00") + ":" + milliseconds.ToString("00");
+	    TimerText.text = minutes.ToString ("00") + ":" + seconds.ToString ("00") + ":" + milliseconds.ToString("00");*/
     }
 
     public void IncreaseRoomCount(int i = 1){
