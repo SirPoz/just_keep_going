@@ -4,24 +4,32 @@ using UnityEngine;
 
 public class Parallax : MonoBehaviour
 {
+    private float Length;           //length of sprite
+    private float StartingPosition; //starting position of sprite
+    public float ParallaxEffect;     //modifiable Parallaxeffect
 
-    private float length, startpos; //length and start pos of sprite
-    public GameObject camera;       //Camera
-    public float parallaxEffect;    //modifiable Parallaxeffect
-
-
-    // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
-        startpos = transform.position.x;                        //Startposition
-        length = GetComponent<SpriteRenderer>().bounds.size.x;  //length
+        StartingPosition = transform.position.x;                //Startposition
+        Length = GetComponent<SpriteRenderer>().bounds.size.x;  //length
     }
 
-    // Update is called once per frame
-    void FixedUpdate()
+    private void Update()
     {
-        float dist = (camera.transform.position.x * parallaxEffect);    //distance from startposition
+       // var temp = Camera.main.transform.position.x * -1 - ParallaxEffect;
+        var distance = Camera.main.transform.position.x * ParallaxEffect;    //distance from startposition
 
-        transform.position = new Vector3(startpos + dist, transform.position.y, transform.position.z);      //moveCamera
+        transform.position = new Vector3(StartingPosition + distance, transform.position.y, transform.position.z);  //moveCamera
+
+        /*
+        if (temp > StartingPosition + Length)
+        {
+            StartingPosition += Length;
+        }
+        else if (temp < StartingPosition - Length)
+        {
+            StartingPosition -= Length;
+        }
+        */
     }
 }
