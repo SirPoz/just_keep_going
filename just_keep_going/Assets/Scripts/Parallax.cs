@@ -16,20 +16,23 @@ public class Parallax : MonoBehaviour
 
     private void Update()
     {
-       // var temp = Camera.main.transform.position.x * -1 - ParallaxEffect;
-        var distance = Camera.main.transform.position.x * ParallaxEffect;    //distance from startposition
+       
+        //float temp = (Camera.main.transform.position.x * (1 - ParallaxEffect));  //
+        float distance = Camera.main.transform.position.x * ParallaxEffect;    //distance from startposition
 
         transform.position = new Vector3(StartingPosition + distance, transform.position.y, transform.position.z);  //moveCamera
 
         /*
-        if (temp > StartingPosition + Length)
+        if (temp > StartingPosition + Length)       //backround repeats itself
         {
             StartingPosition += Length;
         }
+        
         else if (temp < StartingPosition - Length)
         {
             StartingPosition -= Length;
         }
         */
+        
     }
 }
