@@ -1,4 +1,6 @@
 using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -8,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
     [Header("Combat")]
     public float attackDamage;
     public float attackRange;
+    public float knockBackForce;
     public Transform attackPoint;
     public LayerMask enemyLayers;
 
@@ -31,6 +34,7 @@ public class PlayerMovement : MonoBehaviour
 
 
     private Rigidbody2D rb;
+    private SpriteRenderer spriteRenderer;
     private float horizontalMove;
     private int jumpCounter = 0;
     private bool grounded = true;
@@ -40,6 +44,7 @@ public class PlayerMovement : MonoBehaviour
 
 
     void Start(){
+        spriteRenderer = GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody2D>(); //Der Rigidbody der dem Spieler zugeordnet ist
         gravityScale = rb.gravityScale; //Die Variable gravityScale wird der normalen Anziehungskraft des rigidbodys gleichgesetzt
     }
@@ -152,6 +157,23 @@ public class PlayerMovement : MonoBehaviour
     void OnDrawGizmosSelected()
     {
         Gizmos.DrawWireSphere(attackPoint.position, attackRange);
+    }
+
+    public void SwitchColor()
+    {
+        StartCoroutine(ColorSwitch());
+    }
+
+    IEnumerator ColorSwitch()
+    {
+        //Change the color instantly to new color
+        spriteRenderer.color = new Color(1, 0, 0, 1);
+
+        //Wait for .2 seconds
+        yield return new WaitForSeconds(0.2f);
+
+        //Switch to the previous color
+        spriteRenderer.color = new Color(1, 1, 1, 1);
     }
 
 

@@ -98,7 +98,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 100
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -145,6 +145,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4895348384252404ea3646b82ed8b692, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isFacingRight: 0
 --- !u!114 &1333948886
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -157,6 +158,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 927d5ef49b6c6e842a67b3c424f7b13e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 50
-  damage: 100
+  maxHealth: 500
+  attackDamage: 20
   knockBackForce: 1000

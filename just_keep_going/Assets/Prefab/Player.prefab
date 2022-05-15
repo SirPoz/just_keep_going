@@ -156,6 +156,7 @@ MonoBehaviour:
   energyHealthHandler: {fileID: 3131439364747692433}
   attackDamage: 50
   attackRange: 0.95
+  knockBackForce: 2000
   attackPoint: {fileID: 1578612677}
   enemyLayers:
     serializedVersion: 2

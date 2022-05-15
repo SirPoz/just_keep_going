@@ -6,6 +6,7 @@ public class GhostMovement : MonoBehaviour
 {
     Rigidbody2D rb;
     int direction = -1;
+    public bool isFacingRight = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,9 +25,11 @@ public class GhostMovement : MonoBehaviour
         direction = direction * -1;
         if(direction < 0){
             gameObject.transform.localScale = new Vector3(3, 3, 1);
+            isFacingRight = false;
         }
         else{
             gameObject.transform.localScale = new Vector3(-3, 3, 1);
+            isFacingRight = true;
         }
         
     }
