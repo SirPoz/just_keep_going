@@ -154,6 +154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   anim: {fileID: 1001150097}
   energyHealthHandler: {fileID: 3131439364747692433}
+  Projectile: {fileID: 4492463717455013039, guid: 3aa0ce0f421f2e341b0c3ee68e8f0d57, type: 3}
   attackDamage: 50
   attackRange: 0.95
   knockBackForce: 2000

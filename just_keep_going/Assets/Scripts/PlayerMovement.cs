@@ -7,6 +7,8 @@ public class PlayerMovement : MonoBehaviour
     public Animator anim;
     public PlayerEnergyHealth energyHealthHandler;
 
+    public GameObject Projectile;
+
     [Header("Combat")]
     public float attackDamage;
     public float attackRange;
@@ -150,6 +152,19 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             Attack();
+        }
+        if (Input.GetMouseButtonDown(0))
+        {
+            Attack();
+        }
+        if(Input.GetButtonDown("Fire1")){
+            if(isFacingRight){
+                Instantiate(Projectile, (transform.position + new Vector3(2, 0, 0)) , transform.rotation);
+            }
+            else{
+                Instantiate(Projectile, (transform.position + new Vector3(-2, 0, 0)) , transform.rotation);
+            }
+            
         }
 
     }
