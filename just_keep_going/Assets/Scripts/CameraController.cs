@@ -23,7 +23,8 @@ public class CameraController : MonoBehaviour
         }
         else
         {
-            transform.position = new Vector3(player.transform.position.x,player.transform.position.y,transform.position.z);
+            float offset =  player.transform.position.y + 3.4f;
+            transform.position = new Vector3(player.transform.position.x,offset,transform.position.z);
         }
         
     }

@@ -9,7 +9,7 @@ public class DamageHandler : MonoBehaviour
     public float attackDamage;
     public float knockBackForce;
     private SpriteRenderer spriteRenderer;
-    GameObject player;
+    public GameObject player;
     Rigidbody2D rb;
 
 

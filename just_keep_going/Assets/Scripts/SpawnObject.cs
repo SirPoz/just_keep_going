@@ -8,6 +8,8 @@ public class SpawnObject : MonoBehaviour
     public GameObject[] objects;
     public GameObject levelHandler;
 
+    private int lastRoom = -1;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -16,8 +18,14 @@ public class SpawnObject : MonoBehaviour
 
     void setupRoom()
     {
-
-        int rand = Random.Range(0, objects.Length);
+        int rand;
+        do{
+         rand = Random.Range(0, objects.Length);
+        }while(rand == lastRoom && lastRoom != -1);
+        Debug.Log(rand);
+        Debug.Log(lastRoom);
+        lastRoom = rand;
+        
         Instantiate(objects[rand], transform.position, Quaternion.identity);
         Instantiate(levelHandler, transform.position, Quaternion.identity);
     }
