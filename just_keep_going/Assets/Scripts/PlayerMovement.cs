@@ -153,10 +153,6 @@ public class PlayerMovement : MonoBehaviour
         {
             Attack();
         }
-        if (Input.GetMouseButtonDown(0))
-        {
-            Attack();
-        }
         if(Input.GetButtonDown("Fire1")){
             if(isFacingRight){
                 Instantiate(Projectile, (transform.position + new Vector3(2, 0, 0)) , transform.rotation);

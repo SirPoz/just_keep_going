@@ -5,14 +5,12 @@ using UnityEngine;
 public class DamageHandler : MonoBehaviour
 {
     public float maxHealth;
-    private float currentHealth;
+    public float currentHealth;
     public float attackDamage;
     public float knockBackForce;
     private SpriteRenderer spriteRenderer;
     public GameObject player;
     Rigidbody2D rb;
-
-
 
     void Start()
     {
@@ -21,7 +19,6 @@ public class DamageHandler : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
         currentHealth = maxHealth;
     }
-
 
     void Update()
     {
@@ -32,14 +29,19 @@ public class DamageHandler : MonoBehaviour
     {
         if (col.gameObject.tag == "Player")
         {
-            player.GetComponent<PlayerEnergyHealth>().setCurrentHealth(col.gameObject.GetComponent<PlayerEnergyHealth>().getCurrentHealth() - attackDamage);
-            Debug.Log("Dealt " + attackDamage + "damage to the player");
-            player.GetComponent<PlayerMovement>().SwitchColor();
-            if (player.GetComponent<PlayerMovement>().isFacingRight)
-                player.GetComponent<Rigidbody2D>().AddForce(-knockBackForce * Vector2.right);
-            else
-                player.GetComponent<Rigidbody2D>().AddForce(knockBackForce * Vector2.right);
+            Attack();
         }
+    }
+
+    public void Attack()
+    {
+        player.GetComponent<PlayerEnergyHealth>().setCurrentHealth(player.GetComponent<PlayerEnergyHealth>().getCurrentHealth() - attackDamage);
+        Debug.Log("Dealt " + attackDamage + "damage to the player");
+        player.GetComponent<PlayerMovement>().SwitchColor();
+        if (player.GetComponent<PlayerMovement>().isFacingRight)
+            player.GetComponent<Rigidbody2D>().AddForce(-knockBackForce * Vector2.right);
+        else
+            player.GetComponent<Rigidbody2D>().AddForce(knockBackForce * Vector2.right);
     }
 
     public void takeDamage(float damage)
