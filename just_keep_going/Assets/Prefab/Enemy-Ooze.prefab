@@ -158,5 +158,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 200
-  damage: 35
+  currentHealth: 0
+  attackDamage: 0
   knockBackForce: 1000
+  knockBackForce2: 1000000
+  player: {fileID: 0}

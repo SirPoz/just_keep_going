@@ -8,6 +8,7 @@ public class DamageHandler : MonoBehaviour
     public float currentHealth;
     public float attackDamage;
     public float knockBackForce;
+    public float knockBackForce2 = 100000;
     private SpriteRenderer spriteRenderer;
     public GameObject player;
     Rigidbody2D rb;
@@ -31,6 +32,10 @@ public class DamageHandler : MonoBehaviour
         {
             Attack();
         }
+        if (col.gameObject.tag == "projectile")
+        {
+            projectile();
+        }
     }
 
     public void Attack()
@@ -42,6 +47,16 @@ public class DamageHandler : MonoBehaviour
             player.GetComponent<Rigidbody2D>().AddForce(-knockBackForce * Vector2.right);
         else
             player.GetComponent<Rigidbody2D>().AddForce(knockBackForce * Vector2.right);
+    }
+
+    public void projectile()
+    {
+        if (player.GetComponent<PlayerMovement>().isFacingRight){
+            Debug.Log("OK");
+            GetComponent<Rigidbody2D>().AddForce(knockBackForce2 * Vector2.right);
+        }
+        else
+            GetComponent<Rigidbody2D>().AddForce(-knockBackForce2 * Vector2.right);
     }
 
     public void takeDamage(float damage)
