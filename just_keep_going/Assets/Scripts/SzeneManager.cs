@@ -7,10 +7,10 @@ public class SzeneManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        SceneVariables.roomCount++;
+        SceneVariables.Instance.roomCount++;
         GameObject Player = GameObject.FindWithTag("Player");
-        Player.GetComponent<PlayerEnergyHealth>().setMaxHealth(SceneVariables.playerMaxHealth);
-        Player.GetComponent<PlayerEnergyHealth>().setCurrentHealth(SceneVariables.playerMaxHealth);
+        Player.GetComponent<PlayerEnergyHealth>().setMaxHealth(SceneVariables.Instance.playerMaxHealth);
+        Player.GetComponent<PlayerEnergyHealth>().setCurrentHealth(SceneVariables.Instance.playerMaxHealth);
     }
 
     // Update is called once per frame
