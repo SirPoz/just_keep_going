@@ -13,6 +13,7 @@ public class PlayerMovement : MonoBehaviour
     public float attackDamage;
     public float attackRange;
     public float knockBackForce;
+    public float attackCooldown;
     public Transform attackPoint;
     public LayerMask enemyLayers;
 
@@ -42,6 +43,7 @@ public class PlayerMovement : MonoBehaviour
     private bool grounded = true;
     private float gravityScale;
     private float nextDashTime;
+    private float nextAttackTime;
     
 
 
@@ -121,7 +123,8 @@ public class PlayerMovement : MonoBehaviour
     }
 
     void Attack(){
-        Debug.Log("Attack");
+        if (nextAttackTime <= Time.time) {
+            Debug.Log("Attack");
             //play animation
             anim.SetTrigger("Attack");
 
@@ -129,10 +132,14 @@ public class PlayerMovement : MonoBehaviour
             Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
 
             //deal damage to hit enemies
-            foreach(Collider2D enemy in hitEnemies){
+            foreach (Collider2D enemy in hitEnemies)
+            {
                 Debug.Log(enemy.name + " has been hit");
                 enemy.GetComponent<DamageHandler>().takeDamage(attackDamage);
             }
+            nextAttackTime = Time.time + attackCooldown;
+        }
+
 
     }
 
