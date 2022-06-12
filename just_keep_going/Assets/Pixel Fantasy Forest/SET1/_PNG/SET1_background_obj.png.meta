@@ -1,103 +1,85 @@
 fileFormatVersion: 2
-guid: 73b17a13e9891884eb1585e958b80805
+guid: c6da6cbc573d2f2408d4c189dd19a601
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1443660527843614457
-    second: main_lev_buildB_0
+      213: 4670023879401971713
+    second: SET1_background_obj_0
   - first:
-      213: 8717750523839724754
-    second: main_lev_buildB_1
+      213: 3133784002739338959
+    second: SET1_background_obj_1
   - first:
-      213: 5105772887180932597
-    second: main_lev_buildB_2
+      213: 9099738884527190424
+    second: SET1_background_obj_2
   - first:
-      213: -3832542929276547523
-    second: main_lev_buildB_3
+      213: 5629332709244380353
+    second: SET1_background_obj_3
   - first:
-      213: 8851198246523494934
-    second: main_lev_buildB_4
+      213: -1844144867508580295
+    second: SET1_background_obj_4
   - first:
-      213: -217227337588386502
-    second: main_lev_buildB_5
+      213: -1799949952319549231
+    second: SET1_background_obj_5
   - first:
-      213: 1560546065192044137
-    second: main_lev_buildB_6
+      213: 8473760045880790699
+    second: SET1_background_obj_6
   - first:
-      213: -2609764647119263223
-    second: main_lev_buildB_7
+      213: -1249750891063464802
+    second: SET1_background_obj_7
   - first:
-      213: -8278281609375585375
-    second: main_lev_buildB_8
+      213: 694825782946538210
+    second: SET1_background_obj_8
   - first:
-      213: 3265517189523480330
-    second: main_lev_buildB_9
+      213: -3444893827847784993
+    second: SET1_background_obj_9
   - first:
-      213: 1738295029248113899
-    second: main_lev_buildB_10
+      213: 5632606744467548706
+    second: SET1_background_obj_10
   - first:
-      213: -7917013098988767836
-    second: main_lev_buildB_11
+      213: 5445998350446154129
+    second: SET1_background_obj_11
   - first:
-      213: -61207553896512978
-    second: main_lev_buildB_12
+      213: -8622170390611384348
+    second: SET1_background_obj_12
   - first:
-      213: -5516130061017286708
-    second: main_lev_buildB_13
+      213: 851802785220835949
+    second: SET1_background_obj_13
   - first:
-      213: 967756523335095360
-    second: main_lev_buildB_14
+      213: 2971057715910366400
+    second: SET1_background_obj_14
   - first:
-      213: -8597322997737563629
-    second: main_lev_buildB_15
+      213: -1222510784544248670
+    second: SET1_background_obj_15
   - first:
-      213: -1803644882598887904
-    second: main_lev_buildB_16
+      213: -656778888372995028
+    second: SET1_background_obj_16
   - first:
-      213: 8126134034009728213
-    second: main_lev_buildB_17
+      213: 7234295506480086667
+    second: SET1_background_obj_17
   - first:
-      213: -6220333155416443659
-    second: main_lev_buildB_18
+      213: -7309323462011627704
+    second: SET1_background_obj_18
   - first:
-      213: -1646571973949092560
-    second: main_lev_buildB_19
+      213: 6042564087122833936
+    second: SET1_background_obj_19
   - first:
-      213: -7946310467836269852
-    second: main_lev_buildB_20
+      213: -1719804461622726304
+    second: SET1_background_obj_20
   - first:
-      213: -6531991951868115649
-    second: main_lev_buildB_21
+      213: 4522983616635904286
+    second: SET1_background_obj_21
   - first:
-      213: 6701541853295021553
-    second: main_lev_buildB_22
+      213: -5154418078022311668
+    second: SET1_background_obj_22
   - first:
-      213: -2126994944942856898
-    second: main_lev_buildB_23
+      213: 5754599879220623812
+    second: SET1_background_obj_23
   - first:
-      213: 4543357763709178088
-    second: main_lev_buildB_24
+      213: 7849596165271420272
+    second: SET1_background_obj_24
   - first:
-      213: 7726449888051498868
-    second: main_lev_buildB_25
-  - first:
-      213: 2503624593794066843
-    second: main_lev_buildB_26
-  - first:
-      213: -6426212861936127523
-    second: main_lev_buildB_27
-  - first:
-      213: -1698669718214375225
-    second: main_lev_buildB_28
-  - first:
-      213: -4893304484467911112
-    second: main_lev_buildB_29
-  - first:
-      213: -7998115346890005524
-    second: main_lev_buildB_30
-  - first:
-      213: 2704509717457616983
-    second: main_lev_buildB_31
+      213: 3978147067486569554
+    second: SET1_background_obj_25
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -142,7 +124,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 48
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -199,13 +181,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: main_lev_buildB_0
+      name: SET1_background_obj_0
       rect:
         serializedVersion: 2
-        x: 16
-        y: 480
-        width: 32
-        height: 16
+        x: 0
+        y: 1003
+        width: 128
+        height: 69
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,20 +195,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 701e0a5166617fbe0800000000000000
-      internalID: -1443660527843614457
+      spriteID: 100a858b9f14fc040800000000000000
+      internalID: 4670023879401971713
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: main_lev_buildB_1
+      name: SET1_background_obj_1
       rect:
         serializedVersion: 2
-        x: 64
-        y: 480
-        width: 16
-        height: 16
+        x: 144
+        y: 1021
+        width: 128
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -234,146 +216,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2dc31fda9ebabf870800000000000000
-      internalID: 8717750523839724754
+      spriteID: fce741e62ff6d7b20800000000000000
+      internalID: 3133784002739338959
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: main_lev_buildB_2
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 480
-        width: 80
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5f57d3ca3695bd640800000000000000
-      internalID: 5105772887180932597
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: main_lev_buildB_3
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 368
-        width: 32
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d3e4902f28210dac0800000000000000
-      internalID: -3832542929276547523
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: main_lev_buildB_4
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 464
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 612e798d8e5c5da70800000000000000
-      internalID: 8851198246523494934
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: main_lev_buildB_5
-      rect:
-        serializedVersion: 2
-        x: 368
-        y: 464
-        width: 48
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a355a8b23e04cfcf0800000000000000
-      internalID: -217227337588386502
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: main_lev_buildB_6
-      rect:
-        serializedVersion: 2
-        x: 432
-        y: 464
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 966c76fc06c28a510800000000000000
-      internalID: 1560546065192044137
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: main_lev_buildB_7
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 448
-        width: 80
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 90a651d61e048cbd0800000000000000
-      internalID: -2609764647119263223
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: main_lev_buildB_8
+      name: SET1_background_obj_2
       rect:
         serializedVersion: 2
         x: 288
-        y: 448
-        width: 16
-        height: 32
+        y: 1027
+        width: 112
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -381,20 +237,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1abe48a8cb2ad1d80800000000000000
-      internalID: -8278281609375585375
+      spriteID: 8917d019d44c84e70800000000000000
+      internalID: 9099738884527190424
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: main_lev_buildB_9
+      name: SET1_background_obj_3
       rect:
         serializedVersion: 2
-        x: 480
-        y: 448
-        width: 16
-        height: 32
+        x: 416
+        y: 704
+        width: 304
+        height: 368
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -402,124 +258,355 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0f9a791592715d20800000000000000
-      internalID: 3265517189523480330
+      spriteID: 1c4aff806486f1e40800000000000000
+      internalID: 5629332709244380353
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: main_lev_buildB_10
+      name: SET1_background_obj_4
       rect:
         serializedVersion: 2
-        x: 16
-        y: 352
+        x: 736
+        y: 704
+        width: 176
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9309ac183084866e0800000000000000
+      internalID: -1844144867508580295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SET1_background_obj_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 704
+        width: 128
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d0138e0e0b4507e0800000000000000
+      internalID: -1799949952319549231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SET1_background_obj_6
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 704
+        width: 128
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bae4f96add7d89570800000000000000
+      internalID: 8473760045880790699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SET1_background_obj_7
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 704
+        width: 112
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9c2f60af2ef7aee0800000000000000
+      internalID: -1249750891063464802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SET1_background_obj_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 619
+        width: 128
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2af454e5484a900800000000000000
+      internalID: 694825782946538210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SET1_background_obj_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 637
+        width: 128
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd5723eb0574130d0800000000000000
+      internalID: -3444893827847784993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SET1_background_obj_10
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 643
+        width: 112
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a2573cdf90b2e40800000000000000
+      internalID: 5632606744467548706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SET1_background_obj_11
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 320
+        width: 304
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 191d4b545a2149b40800000000000000
+      internalID: 5445998350446154129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SET1_background_obj_12
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 320
+        width: 176
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e7a7b246b5e75880800000000000000
+      internalID: -8622170390611384348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SET1_background_obj_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 128
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ab6cfbe1632db00800000000000000
+      internalID: 851802785220835949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SET1_background_obj_14
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 320
+        width: 128
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c4550450415b3920800000000000000
+      internalID: 2971057715910366400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SET1_background_obj_15
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 320
+        width: 112
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ace7292be4c80fe0800000000000000
+      internalID: -1222510784544248670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SET1_background_obj_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 244
+        width: 144
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c3d8ea417a2e6f0800000000000000
+      internalID: -656778888372995028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SET1_background_obj_17
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 196
+        width: 240
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e33f72f61656460800000000000000
+      internalID: 7234295506480086667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SET1_background_obj_18
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 213
+        width: 144
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8475e5aa901109a90800000000000000
+      internalID: -7309323462011627704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SET1_background_obj_19
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 167
+        width: 240
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0123d79b5008bd350800000000000000
+      internalID: 6042564087122833936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SET1_background_obj_20
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 160
         width: 80
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bec39258e1aaf1810800000000000000
-      internalID: 1738295029248113899
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: main_lev_buildB_11
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 368
-        width: 128
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4a5f8a8588e112290800000000000000
-      internalID: -7917013098988767836
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: main_lev_buildB_12
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 288
-        width: 128
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e228d64dd0c862ff0800000000000000
-      internalID: -61207553896512978
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: main_lev_buildB_13
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 288
-        width: 128
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cc7f53a6fe4c273b0800000000000000
-      internalID: -5516130061017286708
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: main_lev_buildB_14
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 144
-        width: 48
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 044947a3e692e6d00800000000000000
-      internalID: 967756523335095360
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: main_lev_buildB_15
-      rect:
-        serializedVersion: 2
-        x: 54
-        y: 144
-        width: 52
         height: 144
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -528,20 +615,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31a5e8cb84c20b880800000000000000
-      internalID: -8597322997737563629
+      spriteID: 06178dd34f60228e0800000000000000
+      internalID: -1719804461622726304
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: main_lev_buildB_16
+      name: SET1_background_obj_21
       rect:
         serializedVersion: 2
-        x: 128
-        y: 256
-        width: 16
-        height: 32
+        x: 32
+        y: 112
+        width: 144
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -549,20 +636,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02efdbf098a28f6e0800000000000000
-      internalID: -1803644882598887904
+      spriteID: e11ae72b2add4ce30800000000000000
+      internalID: 4522983616635904286
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: main_lev_buildB_17
+      name: SET1_background_obj_22
       rect:
         serializedVersion: 2
-        x: 192
-        y: 144
-        width: 48
-        height: 128
+        x: 263
+        y: 0
+        width: 265
+        height: 148
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -570,20 +657,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d4ac5e89d3d5c070800000000000000
-      internalID: 8126134034009728213
+      spriteID: c01e0ab3114d778b0800000000000000
+      internalID: -5154418078022311668
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: main_lev_buildB_18
+      name: SET1_background_obj_23
       rect:
         serializedVersion: 2
-        x: 272
-        y: 144
-        width: 48
-        height: 128
+        x: 544
+        y: 0
+        width: 192
+        height: 140
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -591,20 +678,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f471dea3ffeca9a0800000000000000
-      internalID: -6220333155416443659
+      spriteID: 4c97379d9127cdf40800000000000000
+      internalID: 5754599879220623812
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: main_lev_buildB_19
+      name: SET1_background_obj_24
       rect:
         serializedVersion: 2
-        x: 326
-        y: 144
-        width: 52
-        height: 144
+        x: 739
+        y: 0
+        width: 107
+        height: 164
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -612,146 +699,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03d86ab73833629e0800000000000000
-      internalID: -1646571973949092560
+      spriteID: 07d75459f1e5fec60800000000000000
+      internalID: 7849596165271420272
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: main_lev_buildB_20
-      rect:
-        serializedVersion: 2
-        x: 400
-        y: 256
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4eaa6a91bb809b190800000000000000
-      internalID: -7946310467836269852
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: main_lev_buildB_21
-      rect:
-        serializedVersion: 2
-        x: 464
-        y: 144
-        width: 48
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f35c0318de3b955a0800000000000000
-      internalID: -6531991951868115649
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: main_lev_buildB_22
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 144
-        width: 32
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1fd001d2fc8a00d50800000000000000
-      internalID: 6701541853295021553
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: main_lev_buildB_23
-      rect:
-        serializedVersion: 2
-        x: 400
-        y: 144
-        width: 32
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e3521abed556b72e0800000000000000
-      internalID: -2126994944942856898
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: main_lev_buildB_24
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 80
-        width: 128
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8e0166970df3d0f30800000000000000
-      internalID: 4543357763709178088
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: main_lev_buildB_25
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 80
-        width: 128
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 47f8a289c3dd93b60800000000000000
-      internalID: 7726449888051498868
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: main_lev_buildB_26
+      name: SET1_background_obj_25
       rect:
         serializedVersion: 2
         x: 0
-        y: 48
-        width: 144
-        height: 16
+        y: 0
+        width: 240
+        height: 108
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -759,113 +720,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b99e604ad49aeb220800000000000000
-      internalID: 2503624593794066843
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: main_lev_buildB_27
-      rect:
-        serializedVersion: 2
-        x: 272
-        y: 48
-        width: 144
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dd13049137181d6a0800000000000000
-      internalID: -6426212861936127523
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: main_lev_buildB_28
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 16
-        width: 112
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7c88e1724ec1d68e0800000000000000
-      internalID: -1698669718214375225
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: main_lev_buildB_29
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 16
-        width: 96
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 836d6794f7d771cb0800000000000000
-      internalID: -4893304484467911112
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: main_lev_buildB_30
-      rect:
-        serializedVersion: 2
-        x: 272
-        y: 16
-        width: 112
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ce36504c77cf00190800000000000000
-      internalID: -7998115346890005524
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: main_lev_buildB_31
-      rect:
-        serializedVersion: 2
-        x: 400
-        y: 16
-        width: 96
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 75047a84249588520800000000000000
-      internalID: 2704509717457616983
+      spriteID: 2548cc54ea7353730800000000000000
+      internalID: 3978147067486569554
       vertices: []
       indices: 
       edges: []
