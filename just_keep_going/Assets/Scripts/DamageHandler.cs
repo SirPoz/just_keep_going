@@ -15,7 +15,6 @@ public class DamageHandler : MonoBehaviour
 
     void Start()
     {
-        player = GameObject.FindWithTag("Player");
         rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         currentHealth = maxHealth;
@@ -40,6 +39,7 @@ public class DamageHandler : MonoBehaviour
 
     public void Attack()
     {
+        player = GameObject.FindWithTag("Player");
         player.GetComponent<PlayerEnergyHealth>().setCurrentHealth(player.GetComponent<PlayerEnergyHealth>().getCurrentHealth() - attackDamage);
         Debug.Log("Dealt " + attackDamage + "damage to the player");
         player.GetComponent<PlayerMovement>().SwitchColor();
@@ -51,6 +51,7 @@ public class DamageHandler : MonoBehaviour
 
     public void projectile()
     {
+        player = GameObject.FindWithTag("Player");
         if (player.GetComponent<PlayerMovement>().isFacingRight){
             Debug.Log("OK");
             GetComponent<Rigidbody2D>().AddForce(knockBackForce2 * Vector2.right);
@@ -61,7 +62,13 @@ public class DamageHandler : MonoBehaviour
 
     public void takeDamage(float damage)
     {
+        player = GameObject.FindWithTag("Player");
         currentHealth -= damage;
+
+        if (currentHealth <= 0)
+        {
+            Die();
+        }
 
         //play hurt animation
         StartCoroutine(ColorSwitch());
@@ -72,11 +79,6 @@ public class DamageHandler : MonoBehaviour
         }
         else {
             rb.AddForce(player.GetComponent<PlayerMovement>().knockBackForce * -1 * Vector2.right);
-        }
-
-        if (currentHealth <= 0)
-        {
-            Die();
         }
     }
 

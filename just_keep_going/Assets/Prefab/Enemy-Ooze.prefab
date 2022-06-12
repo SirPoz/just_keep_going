@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: -3515505245482380425}
   - component: {fileID: 8272425098318252792}
   - component: {fileID: -4650096496641600090}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Enemy-Ooze
   m_TagString: Enemy
   m_Icon: {fileID: 0}

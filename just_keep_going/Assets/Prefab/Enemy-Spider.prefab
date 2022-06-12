@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: -2899097720028082684}
   - component: {fileID: 2805497149851327571}
   - component: {fileID: 8923066909811574012}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Enemy-Spider
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -158,5 +158,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 10
-  damage: 50
+  currentHealth: 0
+  attackDamage: 0
   knockBackForce: 1000
+  knockBackForce2: 100000
+  player: {fileID: 0}
