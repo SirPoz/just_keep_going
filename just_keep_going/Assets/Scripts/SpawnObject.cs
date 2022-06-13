@@ -46,9 +46,9 @@ public class SpawnObject : MonoBehaviour
 
     public void restartRoom()
     {
-        deleteRoom();
-        gameObject.GetComponent<UIHandler>().IncreaseRoomCount();
-        setupRoom();
+            deleteRoom();
+            gameObject.GetComponent<UIHandler>().IncreaseRoomCount();
+            setupRoom();
     }
 
 }

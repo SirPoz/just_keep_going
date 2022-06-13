@@ -9,6 +9,7 @@ public class UIHandler : MonoBehaviour
     public Slider EnergyBar;
 
     public GameObject Player;
+    public GameObject upgradeMenuUI;
 
 
     public Text txt;
@@ -21,7 +22,8 @@ public class UIHandler : MonoBehaviour
 
     
     void Start(){
-       
+
+        upgradeMenuUI.SetActive(false);
         RoomCount = 1;
         txt.text = "Rooms: " + RoomCount;
 
@@ -49,7 +51,30 @@ public class UIHandler : MonoBehaviour
 	    TimerText.text = minutes.ToString ("00") + ":" + seconds.ToString ("00") + ":" + milliseconds.ToString("00");*/
     }
 
+    public void HealthButtonClick()
+    {
+        Player.GetComponent<PlayerEnergyHealth>().setMaxHealth(Player.GetComponent<PlayerEnergyHealth>().getMaxHealth() + 50);
+        upgradeMenuUI.SetActive(false);
+        Time.timeScale = 1f;
+    }
+
+    public void DamageButtonClick()
+    {
+        Player.GetComponent<PlayerMovement>().attackDamage = Player.GetComponent<PlayerMovement>().attackDamage + 5;
+        upgradeMenuUI.SetActive(false);
+        Time.timeScale = 1f;
+    }
+
+    public void SpeedButtonClick()
+    {
+        Player.GetComponent<PlayerMovement>().moveSpeed = Player.GetComponent<PlayerMovement>().moveSpeed + 1;
+        upgradeMenuUI.SetActive(false);
+        Time.timeScale = 1f;
+    }
+
     public void IncreaseRoomCount(int i = 1){
+        Time.timeScale = 0f;
+        upgradeMenuUI.SetActive(true);
         RoomCount += i;
         txt.text = "Rooms: " + RoomCount;
     }
