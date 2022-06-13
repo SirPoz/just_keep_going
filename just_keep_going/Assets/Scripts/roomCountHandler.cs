@@ -7,18 +7,22 @@ using TMPro;
 public class roomCountHandler : MonoBehaviour
 {
     [SerializeField]private TMP_Text roomText;
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField]private TMP_Text healthText;
+    [SerializeField]private GameObject energyBar;
+    
+    public void SetUI(int roomCount, int health, int energy)
     {
-
-        //TMP_Text textmeshPro = roomText.GetComponent<TextMeshPro>();
-        roomText.text = "Test";
-
+        roomText.text = roomCount + "";
+        healthText.text = health + " %";
+        //energyBar.GetComponent<EnergyBarScript>().setEnergy(energy);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void setEnergy(int energy)
     {
-        
+        //energyBar.GetComponent<EnergyBarScript>().setEnergy(energy);
+    }
+    public void setHealth(int health)
+    {
+        healthText.text = health + " %";
     }
 }
