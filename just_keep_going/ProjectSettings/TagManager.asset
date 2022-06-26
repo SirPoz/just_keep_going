@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Ground
   - Enemy
+  - projectile
+  - Room
+  - LevelHandler
+  - Portal
   layers:
   - Default
   - TransparentFX
