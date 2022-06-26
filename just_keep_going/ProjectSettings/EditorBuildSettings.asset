@@ -8,4 +8,25 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Mario_Level_1.unity
+    guid: 9bb0e197d6421a446b8f62db5ec8b984
+  - enabled: 1
+    path: Assets/Scenes/Room25.unity
+    guid: a2573ebfa17797644b1d96cb82f7d001
+  - enabled: 1
+    path: Assets/Scenes/Level_2_Room.unity
+    guid: b85e157234c17d6468c795b30e6192cc
+  - enabled: 1
+    path: Assets/Scenes/Boss1_room_concept.unity
+    guid: 35afad1a5c4b70249941fd242a0c37a9
+  - enabled: 1
+    path: Assets/Scenes/Level_1_Room.unity
+    guid: 0e361993b8d59b64db5d67ffd2649e2f
+  - enabled: 1
+    path: Assets/Scenes/Room24.unity
+    guid: aaa01a7fa006d104583754ae7cbe83cb
+  - enabled: 1
+    path: Assets/Scenes/Level_3_Room.unity
+    guid: 4ef9da4226b27ca4bad70126a4d7253a
   m_configObjects: {}
