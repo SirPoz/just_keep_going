@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 410887895095547329}
   - component: {fileID: 410887895095547328}
+  - component: {fileID: 1378140823}
   m_Layer: 0
   m_Name: LevelGenerator
   m_TagString: GameController
@@ -46,4 +47,23 @@ MonoBehaviour:
   objects:
   - {fileID: 2198484643536642717, guid: 61b831ade4f741a40beaf75d9850c03c, type: 3}
   - {fileID: 8446135215736401583, guid: 0a4f0ce1f5c4b38488c3d76be2f2a9f0, type: 3}
+  - {fileID: 3396063971953255121, guid: 6749514d936236949abc4be8e4d381a4, type: 3}
   levelHandler: {fileID: 3278349859869386220, guid: 45fe09bc5ebe0d54cb8020a26218e265, type: 3}
+--- !u!114 &1378140823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410887895095547335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 704de3fea36a6c54892a521de1eda3c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HealthBar: {fileID: 0}
+  EnergyBar: {fileID: 0}
+  Player: {fileID: 0}
+  upgradeMenuUI: {fileID: 0}
+  txt: {fileID: 0}
+  RoomCount: 0
